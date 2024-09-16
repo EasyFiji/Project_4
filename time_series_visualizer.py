@@ -19,7 +19,7 @@ def draw_line_plot():
     ax.set_xlabel('Date')
     ax.set_ylabel('Page Views')
     # Save image and return fig (don't change this part)
-    fig.savefig('1_line_plot.png')
+    fig.savefig('line_plot.png')
     return fig
 
 def draw_bar_plot():
@@ -42,7 +42,7 @@ def draw_bar_plot():
     ax.set_ylabel('Average Page Views')
     ax.legend(title='Months')
     # Save image and return fig (don't change this part)
-    fig.savefig('2_bar_plot.png')
+    fig.savefig('bar_plot.png')
     return fig
 
 def draw_box_plot():
@@ -71,5 +71,5 @@ def draw_box_plot():
     plt.tight_layout(pad=3.0) 
 
     # Save image and return fig (don't change this part)
-    fig.savefig('3_box_plot.png')
+    fig.savefig('box_plot.png')
     return fig
